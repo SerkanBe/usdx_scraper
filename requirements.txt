@@ -1,1 +1,8 @@
 python-dotenv
+requests
+spotipy==2.25.1
+beautifulsoup4==4.14.0
+youtube-search-python==1.6.6
+yt-dlp==2025.9.26
+html5lib==1.1
+tinytag==2.1.2

@@ -10,7 +10,7 @@ class CliParser:
     
     def __init__(self):
         event_manager.trigger("pre_parser_init")
-
+        self.args = None
         self.parser = argparse.ArgumentParser(prog="USDX Song Scraper v2.0",
                                          description="Scrapes your music files, downloads the USDX text files and according YouTube videos")
 

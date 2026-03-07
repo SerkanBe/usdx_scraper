@@ -1,5 +1,29 @@
 .env
+input/
 output/
+database/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Spotify cache
+.cache
 
 # IDE
 .idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

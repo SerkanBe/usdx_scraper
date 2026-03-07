@@ -11,6 +11,8 @@ class ScraperConfig:
     def __init__(self):
         event_manager.register("post_parser_init", self.event_post_parser_init)
         event_manager.register("parser_parse_args", self.event_parser_parse_args)
+        self.find_all = self.find_all
+        self.output_directory = self.output_directory
         return
 
 
